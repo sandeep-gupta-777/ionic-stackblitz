@@ -10,16 +10,26 @@
 
 <ion-content padding>
 
-  <h3>Welcome to your first Ionic app!</h3>
+  <div style="display: flex">
+    <!--<ion-list>-->
+      <ion-item style="width: 50px">
+        <ion-label>+2</ion-label>
+        <ion-select>
+          <ion-option value="1">+1</ion-option>
+          <ion-option value="2">+2</ion-option>
+          <ion-option value="3">+3</ion-option>
+        </ion-select>
+      </ion-item>
+    <!--</ion-list>-->
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+
+    <!--<ion-list>-->
+
+      <ion-item>
+        <ion-label fixed>Mobile Number</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+  </div>
 
 </ion-content>
